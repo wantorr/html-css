@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: wheat;
+         
+        }
+        header{
+            background-color: aliceblue;
+            width: 600px;
+            padding: 10px;
+            margin: 10px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.411);
+        }
+
+        nav{
+            background-color: rgb(255, 193, 255);
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.39);
+
+        }
+
+        nav > a{
+            text-decoration: none;
+            color: rgb(70, 70, 70);
+            font-weight: bold;
+            margin: right;
+            text-shadow: 1px 1px 10px red;
+
+        }
+
+        main{
+            background-color: aliceblue;
+            padding: 10px;
+            margin: 5px;
+            border-radius: 40px 0px;
+        }
+
+        #assuntos{
+            background-color: rgba(0, 0, 0, 0.527);
+            color: white;
+            font-weight: bold;
+            padding: 2px;
+            margin: 10px 0px;
+            text-align: center;
+            text-shadow: 1px 1px 10px blue;
+            border-radius: 40px 0px;
+            box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.473);
+            
+        }
+
+        article{
+            background-color: rgb(110, 255, 255);
+            padding: 5px;
+            border-radius: 40px 0px;
+        }
+
+        article > aside{
+            background-color: bisque;
+            border-radius: 40px 0px;
+        }
+
+        footer{
+            background-color: rgba(0, 0, 0, 0.671);
+            color: aliceblue;
+            text-align: center;
+            padding: 5px;
+            margin: 0px;
+            text-shadow: 1px 1px 10px white;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+            <a href="#">LINK</a>
+        </nav>
+    </header>
+
+    <main>
+        <section id="assuntos">
+            <p>Esportes Politica Tecnologia</p>
+        </section>
+        <section id="noticias">
+            <article>
+                <h2>Notícias sobre o Brasil</h2>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus id minima eos pariatur impedit beatae nostrum, odio quae assumenda deserunt repudiandae expedita distinctio atque et maiores asperiores dolor molestias. Corporis.</p>
+                <aside>
+                    <p>artigo escrito por josé da silva</p>
+                </aside>
+            </article>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>desenvolvido por wanderson torres</p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,26 @@
+body{
+background-color: #88C5FF;
+font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    color: #2d6269;
+}
+
+h1#principal{
+    text-align: center;
+    background-color: #0C4274;
+    color: white;
+}
+h2{
+    color: #1d1681;
+}
+
+.basico{
+    color: aqua;
+}
+.intermediario{
+    color: #168146;
+}
+.avancado{
+    color: aliceblue;
+}

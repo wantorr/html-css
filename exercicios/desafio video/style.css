@@ -1,0 +1,101 @@
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+main .principal {
+     
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+  
+    
+  }
+
+ .videos {
+   
+   object-fit: cover; 
+   position: absolute;
+    top: 70%;
+    left: 30%;
+    transform: translate(-10%, -80%);
+   
+  }
+
+  .roger{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+  }
+
+.outros{
+    a{color: rgb(255, 255, 255);}
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+
+}
+
+.voltar{
+    
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.texto-principal {
+  
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+
+}
+
+.professor{
+
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+.lala{
+ 
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+}
+
+.video-lala{
+  padding: 1px;
+  display: flex;
+  justify-content: center;
+}
+
+.ltda{
+ 
+  display: flex;
+  justify-content: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 70px;
+  color: rgb(255, 255, 255);
+  margin-top: 100px;
+
+}
+
+.video1{
+  background-color: transparent;
+    color: white; /* ou qualquer cor do texto */
+    border: 1px solid white; /* opcional */
+    padding: 10px 20px;
+    cursor: pointer
+}
