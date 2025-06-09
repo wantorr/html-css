@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+   <style>
+    *{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    html, body{
+        width: 100vw;
+        height: 100vh;
+        background-color: #233eff;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    h1{
+        color: aliceblue;
+        text-shadow: 3px 3px 10px black;
+    }
+
+    @media screen and (orientation:portrait) {
+    body{
+        background-image: url(/exercicios/ex26/imagens/cev-portrait.jpg);
+        background-position:center bottom;
+    }
+    }
+    @media screen and (orientation:landscape) {
+        body{
+    background-image: url(/exercicios/ex26/imagens/cev-landscape.jpg);
+    background-position: left bottom;
+    }
+    }
+    
+   </style>
+</head>
+<body>
+    <h1>Mude a horientação do seu dispositivo</h1>
+    
+</body>
+</html>
