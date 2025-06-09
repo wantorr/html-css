@@ -6,7 +6,9 @@
 html, body{
     width: 100vw;
     height: 100vh;
-    background-color: rgb(108, 167, 204);
+    background-color: #233eff;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 h1{
     color: aliceblue;
