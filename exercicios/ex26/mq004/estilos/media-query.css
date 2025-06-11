@@ -1,0 +1,89 @@
+/*todas as demais mídia*/
+
+/*Typical Device Breakpoints
+--------------------------
+Pequenas telas: até 600px
+Celular: de 600px até 768px
+Tablet: de 768px até 992px
+Desktop: de 992px até 1200px
+Grandes telas: acima de 1200px
+*/
+
+ @media print {
+  /*impressão*/  
+  *{
+    font-family: 'Courier New', Courier, monospace;
+  }
+   body{
+    background-image: url(/exercicios/ex26/mq004/imagens/icon-print.png);/*desnecessario*/
+   }
+
+   main{
+    border: 2px solid black;
+   }
+
+   main h1 {
+    text-shadow: none;
+    color: black;
+   }
+
+
+
+img#phone{ display: none;}
+img#tablet{display: none;}
+img#print{display: block;}
+img#pc{display: none;}
+img#tv{display: none;}
+}
+
+ @media screen  and (min-width: 768px) and (max-width:992px) {
+    /*tablet*/
+    
+    body{
+        background-image: url(/exercicios/ex26/mq004/imagens/back-tablet.jpg);
+    }
+
+    main{
+        width: 450px;
+    }
+    
+img#phone{ display: none;}
+img#tablet{display: block;}
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display: none;}
+}
+
+ @media screen and (min-width:992px) and (max-width:1200px) {
+    /*desktop*/
+    body{
+        background-image: url(/exercicios/ex26/mq004/imagens/back-pc.jpg);
+    }
+
+    main{
+        width: 500px;
+    }
+
+img#phone{ display: none;}
+img#tablet{display: none;}
+img#print{display: none;}
+img#pc{display: block;}
+img#tv{display: none;}
+}
+
+ @media screen and (min-width:1200px) {
+  /*grandes telas*/  
+  body{
+    background-image: url(/exercicios/ex26/mq004/imagens/back-tv.jpg);
+  }
+
+main{
+    width: 700px;
+}
+
+img#phone{ display: none;}
+img#tablet{display: none;}
+img#print{display: none;}
+img#pc{display: none;}
+img#tv{display: block;}
+}
