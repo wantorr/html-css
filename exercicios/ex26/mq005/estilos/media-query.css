@@ -1,0 +1,6 @@
+@media screen and (min-width:768) {
+   span .material-symbols-outlined{
+    display: none;
+   }
+    
+}
