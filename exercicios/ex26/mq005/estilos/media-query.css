@@ -1,6 +1,16 @@
-@media screen and (min-width:768) {
-   span .material-symbols-outlined{
-    display: none;
-   }
-    
+@media screen and (min-width:768px) {
+  span#burguer{
+   display: none;
+  }
+   
+  menu{
+   display: block;
+  }
+  menu > ul > li {
+   display: inline-block;
+  }
+
+  main{
+   width: 768px;
+  }
 }
